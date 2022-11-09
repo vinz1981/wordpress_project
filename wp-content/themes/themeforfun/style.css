@@ -1,0 +1,17 @@
+/*
+Theme Name: themeforfun
+Theme URI: https://themeforfun.com/
+Author: Vincent Kowalkowski
+Author URI: https://dysign.fr
+Description: Mon premier thème !
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px; /* on prend en compte le décalage */
+}
